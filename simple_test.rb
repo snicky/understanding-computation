@@ -5,7 +5,7 @@ require_relative 'simple'
 
 class SimpleTest < Minitest::Test
 
-  def test_machine
+  def test_number_add_multiply
     expression = Add.new(
       Multiply.new(
         Number.new(1),
