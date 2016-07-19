@@ -1,7 +1,7 @@
 require 'minitest'
 require 'minitest/autorun'
-require_relative 'string_extension'
-require_relative 'simple'
+require_relative '../ruby_extensions/string_extension'
+require_relative '../simple'
 
 class SimpleTest < Minitest::Test
 
